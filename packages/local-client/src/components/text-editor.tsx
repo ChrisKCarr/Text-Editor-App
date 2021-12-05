@@ -20,10 +20,8 @@ const TextEditor: React.FC<TextEditorProps> = ({ cell }) => {
         event.target &&
         ref.current.contains(event.target as Node)
       ) {
-        console.log('clicked in editor');
         return;
       }
-      console.log(event.target);
       setEditing(false);
     };
     document.addEventListener('click', listener, { capture: true });
