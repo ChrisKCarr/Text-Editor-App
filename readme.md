@@ -2,7 +2,7 @@
 
 This project utilizes mainly React/Redux & Typescript to re-create a "Jupyter Notebook" but for Javascript. Because it bundles and transpiles code directly within your browser, much like sites such as CodePen or CodeSandBox. The project was deployed using a multi-package architecture to NPM (jscells);
 
-![Game Overview](https://ibb.co/NKvQ5tq)
+![Game Overview](https://github.com/ChrisKCarr/Text-Editor-App/blob/main/images/CodeEditorScreen.png)
 
 ### Installing
 
