@@ -11,3 +11,7 @@ This project utilizes mainly React/Redux & Typescript to re-create a "Jupyter No
 - When you're done using it `CTRL+C` to close the port, then `exit` in the terminal.
 
 Your progress is saved locally, re-run `npx jscells serve` to pick up where you left off.
+
+## Code Editor
+
+The code editor 'code' cells utilize a custom function - `show()`, which replaces `console.log()` and can also render `< />` tags to the DOM.
